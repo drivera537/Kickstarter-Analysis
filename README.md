@@ -23,27 +23,27 @@ D. Lastly, I created a pivot chart line graph that visualizes this new table.<br
 <br>
 <b>Objective 4: Create a Bonus Sheet that Counts the State of a Kickstarted by its Goal Range</b><br>
 A. Create 8 columns called:
-<br>     - "Goal"
-<br>     - "Number Successful"
-<br>     - "Number Failed"
-<br>     - "Number Canceled"
-<br>     - "Total Projects"
-<br>     - "Percentage Successful"
-<br>     - "Percentage Failed"
-<br>     - "Percentage Canceled".<br>
+<br>&emsp;- "Goal"
+<br>&emsp;- "Number Successful"
+<br>&emsp;- "Number Failed"
+<br>&emsp;- "Number Canceled"
+<br>&emsp;- "Total Projects"
+<br>&emsp;- "Percentage Successful"
+<br>&emsp;- "Percentage Failed"
+<br>&emsp;- "Percentage Canceled".<br>
 B. In the "Goal" column, create 12 rows with the following headers:
-<br>     - "Less than 1000"
-<br>     - "1000 to 4999"
-<br>     - "5000 to 9999"
-<br>     - "10000 to 14999"
-<br>     - "15000 to 19999"
-<br>     - "20000 to 24999"
-<br>     - "25000 to 29999"
-<br>     - "30000 to 34999"
-<br>     - "35000 to 39999"
-<br>     - "40000 to 44999"
-<br>     - "45000 to 49999"
-<br>     - "Greater than or equal to 50000".<br>
+<br>&emsp;- "Less than 1000"
+<br>&emsp;- "1000 to 4999"
+<br>&emsp;- "5000 to 9999"
+<br>&emsp;- "10000 to 14999"
+<br>&emsp;- "15000 to 19999"
+<br>&emsp;- "20000 to 24999"
+<br>&emsp;- "25000 to 29999"
+<br>&emsp;- "30000 to 34999"
+<br>&emsp;- "35000 to 39999"
+<br>&emsp;- "40000 to 44999"
+<br>&emsp;- "45000 to 49999"
+<br>&emsp;- "Greater than or equal to 50000".<br>
 C. Using the COUNTIFS() formula, I counted how many successful, failed, and canceled projects were created with goals within the ranges listed above. I populated the "Number Successful", "Number Failed", and "Number Canceled" columns with this data.<br>
 D. Next, I added up each of the values in the "Number Successful", "Number Failed", and "Number Canceled" columns to populate the "Total Projects" column. Then, using a mathematical formula, I found the percentage of projects that were successful, failed, or canceled per goal range.<br>
 E. Lastly, I created a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.<br>
@@ -53,9 +53,9 @@ A. I filtered the Main Information sheet by the "state" column. First I looked a
 B. I created a new sheet and pasted the above information.<br>
 C. Next, I went back to the Main Information sheet and filtered for the failure state. I copied the "state" and "backers_count" columns to the same sheet.<br>
 D. Next, I used Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
-<br>     - The mean number of backers.
-<br>     - The median number of backers.
-<br>     - The minimum number of backers.
-<br>     - The maximum number of backers.
-<br>     - The variance of the number of backers.
-<br>     - The standard deviation of the number of backers.
+<br>&emsp;- The mean number of backers.
+<br>&emsp;- The median number of backers.
+<br>&emsp;- The minimum number of backers.
+<br>&emsp;- The maximum number of backers.
+<br>&emsp;- The variance of the number of backers.
+<br>&emsp;- The standard deviation of the number of backers.
