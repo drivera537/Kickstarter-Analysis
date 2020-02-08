@@ -56,9 +56,9 @@ E. Lastly, I created a line chart that graphs the relationship between a goal's 
 <b>Objective 5: Bonus Statistical Analysis</b><br>
 A. I filtered the Main Information sheet by the "state" column. First I looked at the successful state and copied the "state" column and the "backers_count" column.<br>
 B. I created a new sheet and pasted the above information.<br>
-C. Next, I went back to the Main Information sheet and filtered for the failure state. I copied the "state" and "backers_count" columns to the same sheet.<br>
-<center>![backers](https://github.com/swati-dontamsetti/Kickstarter-Analysis/blob/master/Images/backers01.png)</center><br>
-D. Next, I used Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
+C. Next, I went back to the Main Information sheet and filtered for the failure state. I copied the "state" and "backers_count" columns to the same sheet.<br><center>
+![backers](https://github.com/swati-dontamsetti/Kickstarter-Analysis/blob/master/Images/backers01.png)<br>
+</center>D. Next, I used Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
 <br>&emsp;- The mean number of backers.
 <br>&emsp;- The median number of backers.
 <br>&emsp;- The minimum number of backers.
