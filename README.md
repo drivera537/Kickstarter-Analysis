@@ -6,6 +6,7 @@ Over $2 billion has been raised using the massively successful crowdfunding serv
 A. To do this, I used conditional formatting to fill in each cell in the "state" column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.<br>
 B. I, then, created a new column O called "Percent Funded" that uses a simple formula to uncover how much money a campaign made to reach its initial goal.<br>
 C. Next, I used conditional formatting to fill each cell in the "Percent Funded" column using a three-color scale. The scale starts at 0 and is a dark shade of red, transitioning to green at 100, and blue at 200.<br>
+![Kickstarter Table](Images/FullTable.PNG)
 D. Next, I created a new column P called "Average Donation" that uses a formula to uncover how much each backer for the project paid on average.<br>
 E. Lastly, I created two new columns, one called "Category" at Q and another called "Sub-Category" at R, which use formulas to split the "Category and Sub-Category" column into two parts.<br>
 <br>
